@@ -74,13 +74,13 @@ class ErrorBoundary extends Component<Props, State> {
                 <RotateCw size={18} />
                 Reload Page
               </button>
-              
+             <a 
                 href="/"
                 className="flex-1 inline-flex items-center justify-center gap-2 bg-white border border-slate-200 rounded-full px-6 py-3 font-bold text-slate-700 hover:bg-slate-50 transition-colors"
-              >
+            >
                 <Home size={18} />
                 Go Home
-              </a>
+            </a>
             </div>
           </div>
         </main>
