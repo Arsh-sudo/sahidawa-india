@@ -8,7 +8,7 @@ import { ThemeProvider } from "./components/ThemeProvider";
 import Chatbot from "./components/Chatbot";
 import "./globals.css";
 import "../../src/styles/print.css";
-import ErrorBoundary from "../../../components/ErrorBoundary";
+import ErrorBoundary from "../../components/ErrorBoundary";
 import { Toaster } from "sonner";
 
 export const metadata: Metadata = {
